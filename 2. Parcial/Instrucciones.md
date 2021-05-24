@@ -2,8 +2,10 @@ Instrucciones examen final de Estadística Aplicada a la Ingeniería
 ================
 
 La duración del examen sera de 1 hora con 45 minutos. El examen lo
-podrán encontrar en el siguiente enlace &lt;&gt;. A cada estudiante se
-les asigna un examen específico, detallado en la siguiente tabla:
+podrán encontrar en el siguiente enlace
+<https://github.com/luiqs/Modelamiento/tree/main/2.%20Parcial>. A cada
+estudiante se les asigna un examen específico, detallado en la siguiente
+tabla:
 
 | Apellidos\_Nombre    | EXAMEN   |
 |:---------------------|:---------|
