@@ -36,12 +36,17 @@ se describen cada una de ellas:
 
 -   Nombre: Variable de tipo nominal que representa el nombre de la
     empresa.
--   HuellaCarbono: Es el calculo de la huella de carbono, expresado en
+-   Huella.Carbono: Es el calculo de la huella de carbono, expresado en
     toneladas de CO2 equivalente (anual).
--   ConsumoEnergia: Es el consumo de energía anual (expresado en
+-   Consumo.Energia: Es el consumo de energía anual (expresado en
     MegaWatts)
 -   TamañoEmpresa: Variable de tipo categórica que agrupa a las empresa
-    según en numero de trabajadores.
+    según en numero de trabajadores (la tienen tanto como categoria
+    númerica y con nombre nomimal).
+-   Consumo.Agua: Es el consumo de agua anual (expresado en Toneladas al
+    año)
+-   Ganancias.Anuales: Son las ganancias anuales en dolares de las
+    mineras.
 
 De la base de datos “Huella” y del enunciado anterior, calcule y discuta
 los resultados obtenidos a las siguientes preguntas:
