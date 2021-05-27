@@ -40,9 +40,10 @@ se describen cada una de ellas:
     toneladas de CO2 equivalente (anual).
 -   Consumo.Energia: Es el consumo de energía anual (expresado en
     MegaWatts)
--   TamañoEmpresa: Variable de tipo categórica que agrupa a las empresa
+-   Tamaño.Empresa: Variable de tipo categórica que agrupa a las empresa
     según en numero de trabajadores (la tienen tanto como categoria
-    númerica y con nombre nomimal).
+    númerica y con nombre nomimal. Donde 1, corresponde a empresa chica;
+    2, a empresa mediana y 3 a empresa grande).
 -   Consumo.Agua: Es el consumo de agua anual (expresado en Toneladas al
     año)
 -   Ganancias.Anuales: Son las ganancias anuales en dolares de las
