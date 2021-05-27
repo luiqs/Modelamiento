@@ -29,19 +29,23 @@ library(tidyverse)
 Incendios <- read.csv("https://raw.githubusercontent.com/luiqs/Estadistica-Aplicada/main/PDB/Incendios.csv")
 ```
 
-La base de datos de la muestra, “Incedios”, tiene 4 variables de
+La base de datos de la muestra, “Incedios”, tiene 9 variables de
 estudio. A continuación se describen cada una de ellas:
 
 -   Incendio: Es un tipo de variable binaria que toma los valores de 1
     (ocurrió al menos un incendio forestal durante el año en la zona de
-    estudio) y 0 (no ocurrió ningún incendio forestal durante el año.
--   Estado: Es la variable Incendio pero sin codificar en números 1 y 0.
-    Toma dos valores, Incendio, zonas donde hubo al menos un incendio al
-    año y No Incendio, zonas donde no ocurrió ningún incendio durante el
-    año de estudio.
+    estudio) y 0 (no ocurrió ningún incendio forestal durante el año).
+    La variable se presenta tanto númerica como nominal (los dos son
+    categorias).
 -   CalidadAire: Es el valor medio de la concentración de material
     particulado de 10 micras a lo largo del año de estudio.
 -   Temperatura: Es la temperatura media anual de la zona de estudio.
+-   Precipitación.Anual: Es la precipitación anual en cada zona.
+-   Velocidad.Viento: Es la velocidad de viento anual en cada zona.
+-   Humedad relativa: Es la humedad relativa anual en cada zona.
+-   Extracción de oro: Indica si se han presentado casos o no, de
+    extracción de oro (al igual que la variable incendio es binaria y
+    presenta las categorias nominales y codificadas).
 
 Tener en consideración que la desviación estándar poblacional de la
 concentración de material particulado poblacional es de 2.1 y la
