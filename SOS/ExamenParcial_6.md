@@ -28,17 +28,23 @@ library(tidyverse)
 Inundacion <- read.csv("https://raw.githubusercontent.com/luiqs/Estadistica-Aplicada/main/PDB/Inundacion.csv")
 ```
 
-La base de datos “Inundacion”, tiene 4 variables de estudio. A
+La base de datos “Inundacion”, tiene 8 variables de estudio. A
 continuación se describen cada una de ellas:
 
 -   Inundaciones: Brinda el numero de inundaciones anuales en la zona de
     estudio.
 -   Temperatura: Representa la temperatura anual promedio en la zona de
     estudio (medida en grados centígrados).
--   Precipitacion: Representa la precipitación anual promedio en la zona
-    de estudio (medida en “mm”)
+-   Precipitación: Representa la precipitación anual promedio en la zona
+    de estudio (medida en “mm”).
+-   Velocidad.Viento: Representa la velocidad del viento en Kimoletros
+    por hora.
+-   Zona.Sismica: Variable de tipo binaria, la cual nos indica si es o
+    no es una zona sismica (tienen dos versiones de esta variable, tanto
+    la categoria codificada, como la variable nominal).
 -   CercaniaMar: Variable categórica que sirve de referencia para saber
     la cercanía al mar de la zona monitoreada.
+-   Altitud: La altitud en metros sobre el nivel del mar.
 
 De la base de datos “Inundacion” y del enunciado anterior, calcule y
 discuta los resultados obtenidos a las siguientes preguntas:
